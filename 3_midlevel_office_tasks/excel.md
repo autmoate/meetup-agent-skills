@@ -4,6 +4,9 @@
 
 Der Excel-Skill hilft dir, Excel-Dateien (.xlsx) direkt zu erstellen, zu bearbeiten und zu formatieren.
 
+Wir verwenden den Excel-Skill von Anthropic:
+https://skills.sh/anthropics/skills/xlsx
+
 ---
 
 ## Kreative Beispiel-Prompts
@@ -44,7 +47,21 @@ Füge 5 Beispieldatensätze hinzu
 
 ### Schritt 2: Skill installieren
 
-*******
+**Option 1: Über /find-skills**
+
+```
+/find-skills installiere mir den anthropic xlsx skill
+```
+
+**Option 2: Manuell**
+
+```bash
+npx skills add anthropics/skills@xlsx -g -y
+```
+
+**Danach:**
+- OpenCode neu starten
+- Skill-Verfügbarkeit prüfen mit `/skills`
 TODO: Wie wollen wir das machen? schon vorbereiten? über vercel installieren?
 *******
 

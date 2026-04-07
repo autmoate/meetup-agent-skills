@@ -4,6 +4,9 @@
 
 Der PowerPoint-Skill hilft dir, Präsentationen (.pptx) zu erstellen, zu bearbeiten und zu gestalten.
 
+Wir verwenden den Powerpoint-Skill von Anthropic:
+https://skills.sh/anthropics/skills/pptx
+
 ---
 
 ## Kreative Beispiel-Prompts
@@ -11,11 +14,11 @@ Der PowerPoint-Skill hilft dir, Präsentationen (.pptx) zu erstellen, zu bearbei
 Hier sind Ideen, die du ausprobieren kannst:
 
 ```
-Erstelle eine Präsentation zum Triebhauseffekt und seine Auswirkungen auf den Klimawandel.
+Erstelle eine Präsentation zum Treibhauseffekt und seine Auswirkungen auf den Klimawandel.
 ```
 
 ```
-Erstelle eine Präsentation @hundoderkatze.pptx die ein für alle Mal klärt ob Hunde oder Katzen besser sind.
+Erstelle eine Präsentation @hundoderkatze.pptx, die ein für alle Mal klärt, ob Hunde oder Katzen besser sind.
 ```
 
 ```
@@ -35,7 +38,21 @@ Erstelle eine Präsentation zum Triebhauseffekt und seine Auswirkungen auf den K
 
 ### Schritt 2: Skill installieren
 
-*******
+**Option 1: Über /find-skills**
+
+```
+/find-skills installiere mir den anthropic pptx skill
+```
+
+**Option 2: Manuell**
+
+```bash
+npx skills add anthropics/skills@pptx -g -y
+```
+
+**Danach:**
+- OpenCode neu starten
+- Skill-Verfügbarkeit prüfen mit `/skills`
 TODO: Wie wollen wir das machen? schon vorbereiten? über vercel installieren?
 *******
 
